@@ -1,0 +1,52 @@
+* {
+    background-color: #121212;
+    color: #fafafa;
+}
+
+html[data-theme="dark"] {
+    --text-color-normal: hsl(210, 10%, 62%);
+    --text-color-light: hsl(210, 15%, 35%);
+    --text-color-richer: hsl(210, 50%, 72%);
+    --text-color-highlight: hsl(25, 70%, 45%);
+}
+
+html[data-theme="light"] {
+    
+}
+
+textarea {
+    resize: none;
+    font-size: large;
+}
+
+.todoList {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2.5em;
+    
+}
+
+.noteContainer {
+    /* flex: 7rem; */
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.noteContainerText {
+    padding: 10px;
+}
+
+.noteText {
+
+}
+
+.noteContainerButton {
+    padding: 10px;
+}
+
+.noteButton {
+
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Todo App</title>
+</head>
+<body>
+  
+  <h1>Todo App</h1>
+
+  <form action="">
+    <label for="todoNote">Add a note (Upto 100 characters)</label>
+    <br>
+    <textarea name="todoNote" id="todoNoteID" cols="30" rows="4" draggable="false" maxlength="100"></textarea>
+    <br>
+    <button type="button" onclick="addNote()">Submit</button>
+    <button type="button" onclick="removeAll()">Remove All</button>
+  </form>
+
+  <div class="todoList" id="todoListID"></div>
+
+</body>
+<script src="app.js"></script>
+</html>
